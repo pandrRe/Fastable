@@ -7,7 +7,7 @@
     "clean": "rimraf dist",
     "lint": "eslint src",
     "build": "cross-env BABEL_ENV=production babel src --out-dir dist",
-    "prepublish": "npm run lint && npm run transpile"
+    "prepublish": "npm run lint && npm run build"
   },
   "keywords": [ 
     "tables",
