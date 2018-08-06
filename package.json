@@ -1,6 +1,6 @@
 {
   "name": "fastable",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A fast and minimalistic way of rendering HTML tables.",
   "main": "./src/fastable.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "cross-env BABEL_ENV=production babel src --out-dir dist",
     "prepublish": "npm run lint && npm run build"
   },
-  "keywords": [ 
+  "keywords": [
     "tables",
     "HTML",
     "fast"
@@ -22,6 +22,6 @@
     "babel-preset-env": "^1.7.0",
     "cross-env": "^5.2.0",
     "eslint": "^5.2.0",
-    "rimraf": "^2.6.2" 
+    "rimraf": "^2.6.2"
   }
 }
