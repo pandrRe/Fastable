@@ -8,8 +8,23 @@ It's very easy to implement Fastable as it is now. The two principal ways are:
 ```
 npm install fastable
 ```
-And then referring to `src/fastable.js` (or `dist/fastable.js` if you need ES5 support).
-
+Then you can `import { Fastable } from 'fastable'` or link `fastable.bundle.js` as shown below.
+  
 - Direct linking
 
-You can also simply download `fastable.js` from either `src/` or `dist/` and saving it somewhere in your project's folder.
+You can also download `dist/fastable.bundle.js` and refer to it in your HTML file.
+
+```
+<script src="fastable.bundle.js"></script>
+```
+
+- Usage
+
+To use Fastable, you must create a new Fastable object first.
+
+```
+var fast = new Fastable();
+```
+
+More details on the example folder.
+

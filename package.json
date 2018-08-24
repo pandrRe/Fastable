@@ -5,7 +5,6 @@
   "main": "./src/fastable.js",
   "scripts": {
     "clean": "rimraf dist",
-    "lint": "eslint src",
     "build": "cross-env BABEL_ENV=production webpack --mode=production",
     "prepare": "npm run build"
   },
