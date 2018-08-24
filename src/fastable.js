@@ -3,7 +3,7 @@ import { sanitizeText } from './sanitizer';
 /**
  * Creates a new Fastable object.
  */
-class Fastable {
+export class Fastable {
     constructor() {
         this.tables = {};
     }
