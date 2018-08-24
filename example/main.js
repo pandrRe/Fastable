@@ -1,6 +1,6 @@
-/*eslint-disable*/
 window.onload = function() {
-    fastable.safeTable("here", "fasTable", objs);
+    fast = new Fastable();
+    fast.safeTable("here", "fasTable", objs);
 }
 
 const objs = [

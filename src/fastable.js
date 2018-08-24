@@ -1,5 +1,5 @@
-/*exported fastable*/
-/*eslint no-console: ["error", { allow: ["warn", "error"] }] */
+import { sanitizeText } from './sanitizer';
+
 /**
  * Creates a new Fastable object.
  */
@@ -107,18 +107,4 @@ class Fastable {
     }
 }
 
-/**Takes a string and encodes it to avoid malicious inputs.
- * 
- * @param {*} text
- */
-function sanitizeText(text) {
-    return text
-        .replace(/&/g, '&amp;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/\//g, '&#x2F;');
-}
-
-const fastable = new Fastable();
+module.exports = Fastable;
