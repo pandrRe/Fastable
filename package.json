@@ -1,6 +1,6 @@
 {
   "name": "fastable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast and minimalistic way of rendering HTML tables.",
   "main": "./src/fastable.js",
   "scripts": {
