@@ -12,7 +12,6 @@ Then you can `import { Fastable } from 'fastable'` or link `fastable.bundle.js` 
   
 - Direct linking
 
-<<<<<<< HEAD
 You can also download `dist/fastable.bundle.js` and refer to it in your HTML file.
 
 ```
@@ -34,4 +33,3 @@ You can also simply download `fastable.js` from either `src/` or `dist/` and sav
 
 ## Example
 [A small example.](https://pandrre.github.io/Fastable/example/)
->>>>>>> b108d9bceb04dd229d0b5717ca32d0b7b25b0568
